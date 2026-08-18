@@ -1,0 +1,26 @@
+# ============================================================
+# JobVeezie - Dipendenze del progetto
+# Compatibile con Python 3.10+
+# ============================================================
+
+# --- Frontend ---
+streamlit>=1.35.0
+
+# --- Scraping offerte di lavoro ---
+python-jobspy>=1.1.7
+
+# --- AI Engine (client HTTP per Ollama locale) ---
+ollama>=0.1.9
+
+# --- Document Parsing ---
+PyPDF2>=3.0.1
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+
+# --- Utility generali ---
+pandas>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# --- Per gestione concorrenza e async ---
+# (threading è built-in, nessuna dipendenza extra necessaria)
